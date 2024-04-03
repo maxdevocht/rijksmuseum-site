@@ -9,4 +9,44 @@
     --color-beige-dark: #b5a38d;
     --color-green: #8f8868;
     --color-green-dark: #343124;
+
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25;
+    --h3-font-size: 1.125rem;
+    --p-font-size: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: var(--color-black);
+    padding: 10px;
+}
+
+/* navbar styling */
+.navbar {
+    border: 1px solid var(--color-beige);
+    border-radius: 28px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav--name {
+    background-color: var(--color-green-dark);
+    border-radius: 28px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-beige);
 }

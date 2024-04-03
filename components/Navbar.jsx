@@ -7,7 +7,7 @@ export default function Navbar() {
                 <p className="name">Rijksmuseum</p>
             </div>
             <div className="nav--btn">
-                <button className="btn">Menu</button>
+                <button className="menu--btn">Menu</button>
             </div>
         </nav>
     )
