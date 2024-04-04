@@ -6,9 +6,9 @@ export default function Navbar() {
             <div className="nav--name">
                 <p className="name">Rijksmuseum</p>
             </div>
-            <div className="nav--btn">
-                <button className="menu--btn">Menu</button>
-            </div>
+            <a href="#" className="nav--btn">
+                <p className="menu--btn">Menu</p>
+            </a>
         </nav>
     )
 }

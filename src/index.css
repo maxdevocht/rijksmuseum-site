@@ -30,18 +30,22 @@ body {
 
 /* navbar styling */
 .navbar {
+    height: 56px;
     border: 1px solid var(--color-beige);
     border-radius: 28px;
-    padding: 1px;
+    padding: 3px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .nav--name {
+    height: 48px;
     background-color: var(--color-green-dark);
     border-radius: 28px;
     flex: 1;
+    width: auto;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -49,4 +53,32 @@ body {
 .name {
     font-family: 'Inter', sans-serif;
     color: var(--color-beige);
+    font-size: var(--p-font-size);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 3px;
+}
+
+.nav--btn {
+    color: var(--color-beige);
+    height: 48px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-beige);
+    border-radius: 28px;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+
+.menu--btn {
+    font-family: 'Inter', sans-serif;
+    font-size: var(--p-font-size);
+    letter-spacing: 1px;
+}
+
+.nav--btn:hover {
+    background-color: var(--color-beige);
+    color: var(--color-black);
 }
