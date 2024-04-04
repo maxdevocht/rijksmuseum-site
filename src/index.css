@@ -265,4 +265,8 @@ body {
     border-top: 5px dotted var(--color-brown);
 }
 
+.main--card {
+    display: flex;
+    flex-direction: column;
+}
 

@@ -12,9 +12,13 @@ export default function App() {
       <Navbar />
       <div className="bento--header">
         <Card_Museum />
-        <Card1 />
-        <Card2 />
-        <Card3 />
+        <div className="div1-2-3">
+          <Card1 />
+          <div className="div2-3">
+            <Card2 />
+            <Card3 />
+          </div>
+        </div>
       </div>
     </>
   )
