@@ -98,9 +98,43 @@ body {
     flex-wrap: nowrap;
 }
 
-.div1 {
+/* museum div styling */
+.div--museum {
     background-color: var(--color-beige);
     border-radius: 32px;
+}
+
+.museum--img {
+    margin: 0 10px;
+    align-items: center;
+    border-radius: 18px;
+    height: 240px;
+    background-image: url(/public/images/museum1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description {
+    padding: 25px;
+    color: var(--color-brown);
+    font-size: var(--p-font-size);
+    font-family: 'Inter', sans-serif;
+}
+
+.link--btn {
+    background-color: rgb(255, 102, 102);
+    border: none;
+    border-radius: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* div1 styling */
+.div1 {
+    background-color: var(--color-green);
+    border-radius: 32px;
+    margin-top: 10px;
 }
 
 .div--title {
