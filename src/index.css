@@ -225,3 +225,44 @@ body {
     color: var(--color-brown);
     margin-top: 15px;
 }
+
+/* div3 styling */
+.div3 {
+    background-color: var(--color-beige-dark);
+    border-radius: 32px;
+    margin-top: 10px;
+}
+
+.div3--title {
+    padding: 25px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile--pic {
+    height: 72px;
+    width: 72px;
+}
+
+.profile--img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.datum {
+    margin-top: 40px;
+    padding: 25px 25px 0 25px;
+    color: var(--color-brown);
+    font-size: var(--p-font-size);
+    font-family: 'Inter', sans-serif;
+    border-top: 5px dotted var(--color-brown);
+}
+
+
