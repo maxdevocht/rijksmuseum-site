@@ -116,10 +116,14 @@ body {
 }
 
 .description {
-    padding: 25px;
+    padding: 25px 25px 0 25px;
     color: var(--color-brown);
     font-size: var(--p-font-size);
     font-family: 'Inter', sans-serif;
+}
+
+.description span {
+    font-size: .8rem;
 }
 
 .link--btn {
@@ -159,7 +163,7 @@ body {
     margin-top: 15px;
 }
 
-.div--img {
+.div--img1 {
     margin: 0 10px;
     align-items: center;
     border-radius: 18px;
@@ -184,4 +188,22 @@ body {
 .div--link a {
     color: var(--color-brown);
     font-size: 1.75rem;
+}
+
+/* div2 styling */
+.div2 {
+    background-color: var(--color-orange);
+    border-radius: 32px;
+    margin-top: 10px;
+}
+
+.div--img2 {
+    margin: 0 10px;
+    align-items: center;
+    border-radius: 18px;
+    height: 240px;
+    background-image: url(/public/images/painting2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
