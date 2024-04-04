@@ -1,13 +1,19 @@
 import { useState } from 'react'
 import Navbar from '../components/Navbar'
-import Bento_Header from '../components/Bento_Header'
+import Card_Museum from '../components/Card_Museum'
+import Card1 from '../components/Card1'
+import Card2 from '../components/Card2'
 import './App.css'
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <Bento_Header />
+      <div className="bento--header">
+        <Card_Museum />
+        <Card1 />
+        <Card2 />
+      </div>
     </>
   )
 }
